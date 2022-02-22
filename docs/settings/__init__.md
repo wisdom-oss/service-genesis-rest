@@ -26,7 +26,7 @@ A Settings class handling the needed information for the access to the GENESIS O
 GENESIS Online Username
 
 The username which was issued by the GENESIS Online database during the signup. The signup is 
-possible on the following page: `&lt;https://www-genesis.destatis.de/genesis/online?Menu=Registrierung&gt;`_
+possible on the following page: `https://www-genesis.destatis.de/genesis/online?Menu=Registrierung`
 
 
 #### password

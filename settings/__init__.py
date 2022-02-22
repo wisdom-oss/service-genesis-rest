@@ -20,7 +20,7 @@ class GENESISAPISettings(BaseSettings):
     GENESIS Online Username
     
     The username which was issued by the GENESIS Online database during the signup. The signup is 
-    possible on the following page: `<https://www-genesis.destatis.de/genesis/online?Menu=Registrierung>`_
+    possible on the following page: `https://www-genesis.destatis.de/genesis/online?Menu=Registrierung`
     """
 
     password: str = Field(
