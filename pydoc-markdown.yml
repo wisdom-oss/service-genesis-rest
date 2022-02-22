@@ -1,0 +1,15 @@
+loaders:
+  - type: python
+processors:
+  - type: filter
+    documented_only: false
+    exclude_private: false
+    exclude_special: false
+  - type: crossref
+  - type: sphinx
+renderer:
+  type: docusaurus
+  docs_base_path: docs
+  relative_output_path: .
+  relative_sidebar_path: sidebar.json
+  sidebar_top_level_label: 'Reference'
