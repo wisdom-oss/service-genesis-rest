@@ -54,6 +54,12 @@ class GENESISAPISettings(BaseSettings):
      - en (English/Englisch) [default]
     """
 
+    class Config:
+        """Configuration related to reading the settings"""
+
+        env_file = '.genesis.env'
+        """Location of the .env file containing the values for these settings"""
+
 
 class ServiceRegistrySettings(BaseSettings):
     """
@@ -86,6 +92,12 @@ class ServiceRegistrySettings(BaseSettings):
     The port on which the service registry listens on, defaults to `8761`
     """
 
+    class Config:
+        """Configuration related to reading the settings"""
+
+        env_file = '.service-registry.env'
+        """Location of the .env file containing the values for these settings"""
+
 
 class ApplicationSettings(BaseSettings):
     """A settings class managing the general settings of the application"""
@@ -115,3 +127,9 @@ class ApplicationSettings(BaseSettings):
     
     The port which will be bound by the HTTP server for incoming traffic
     """
+
+    class Config:
+        """Configuration related to reading the settings"""
+
+        env_file = '.application.env'
+        """Location of the .env file containing the values for these settings"""
