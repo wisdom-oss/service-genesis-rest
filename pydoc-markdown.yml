@@ -2,7 +2,7 @@ loaders:
   - type: python
 processors:
   - type: filter
-    documented_only: false
+    documented_only: true
     exclude_private: false
     exclude_special: false
   - type: crossref

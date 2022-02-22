@@ -6,8 +6,6 @@ title: enums
 A python package which contains all enumerations used in this service
 
 
-## Enum
-
 ## GENESISOnlineLanguage Objects
 
 ```python

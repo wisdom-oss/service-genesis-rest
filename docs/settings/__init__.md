@@ -6,12 +6,6 @@ title: settings
 Python Package for the different settings which need to be configured
 
 
-## BaseSettings
-
-## Field
-
-## GENESISOnlineLanguage
-
 ## GENESISAPISettings Objects
 
 ```python
