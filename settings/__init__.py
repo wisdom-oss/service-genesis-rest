@@ -1,5 +1,5 @@
 """Python Package for the different settings which need to be configured"""
-from pydantic import BaseSettings, Field
+from pydantic import BaseSettings, Field, SecretStr
 
 from enums import GENESISOnlineLanguage
 
@@ -23,7 +23,7 @@ class GENESISAPISettings(BaseSettings):
     possible on the following page: `https://www-genesis.destatis.de/genesis/online?Menu=Registrierung`
     """
 
-    password: str = Field(
+    password: SecretStr = Field(
         default=...,
         title='GENESIS Online Password',
         description='The password used to access the GENESIS Online database. The initial '
