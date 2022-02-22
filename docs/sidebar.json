@@ -1,0 +1,27 @@
+{
+  "items": [
+    {
+      "items": [
+        "enums/__init__"
+      ],
+      "label": "enums",
+      "type": "category"
+    },
+    {
+      "items": [
+        "settings/__init__"
+      ],
+      "label": "settings",
+      "type": "category"
+    },
+    {
+      "items": [
+        "tools/__init__"
+      ],
+      "label": "tools",
+      "type": "category"
+    }
+  ],
+  "label": "Reference",
+  "type": "category"
+}
